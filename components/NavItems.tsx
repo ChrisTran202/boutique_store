@@ -12,9 +12,12 @@ const navItems = [
     label:"Contact", href:"/contact"
   }
 ]
+
+
 const NavItems = () => {
 
- 
+ const pathname = usePathname();
+
 
   return (
     <nav className='flex items-center gap-4 text-black '>
@@ -23,7 +26,7 @@ const NavItems = () => {
       <Link 
         href={href} 
         key={label}
-        className={` hover:text-[#a7c019] ${usePathname() === href ? 'text-[#a7c019]' : ''} `} 
+        className={` hover:text-[#a7c019] ${pathname === href ? 'text-[#a7c019]' : ''} `} 
       >
         {label}
       </Link>
