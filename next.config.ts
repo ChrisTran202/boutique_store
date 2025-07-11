@@ -1,11 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-   reactStrictMode: true,
-    images: {
-     loader: "akamai",
-     path: "/",
-    },
+   images: {
+    unoptimized: true,
+    
+  },
   /* config options here */
 };
 
