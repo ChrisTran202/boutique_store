@@ -16,7 +16,7 @@ const Items = () => {
                 width={250} 
                 height={100}
                 className='rounded-[5px] overflow-hidden '
-                />
+              />
             
             <h1 className='text-[#000000]  text-[15px] m-3'>{item.title}</h1>
             
