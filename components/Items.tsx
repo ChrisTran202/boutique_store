@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import { itemsData } from './ItemsData'
 import Image from 'next/image'
