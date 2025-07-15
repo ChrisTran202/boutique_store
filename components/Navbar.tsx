@@ -2,13 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import NavItems from './NavItems'
-import { Molle } from 'next/font/google'
 
 
-const molle = Molle({ 
-    weight: '400', 
-    subsets: ['latin'] 
-  })
+
 
 function Navbar() {
 
