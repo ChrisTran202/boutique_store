@@ -4,11 +4,12 @@ import Image from 'next/image'
 const Items = () => {
   return (
     <>
-      <div className=' grid grid-cols-3 bg-[#edfdb560] '>
+    <div className='flex items-center justify-center'>
+      <div className=' grid grid-cols-3 justify-center items-center bg-[#edfdb560] md:w-[70%] '>
         
         {itemsData.map((item) => (
-          <div key={item.id} className='m-2 mt-5 flex justify-center items-center w-[30vw] border-[.2px] border-[#a7c019] rounded-[5px] bg-white'>
-            <li className='flex flex-col justify-center items-center '>
+          <div key={item.id} className='m-2 mt-10 flex justify-center items-center border-[.2px] border-[#a7c019] rounded-[5px] bg-white'>
+            <li className='flex flex-col justify-center items-center m-5 '>
               
               <Image 
                 src={item.img} 
@@ -24,6 +25,7 @@ const Items = () => {
           </div>
         ))}
       </div>
+    </div>
     </> )
 }
 

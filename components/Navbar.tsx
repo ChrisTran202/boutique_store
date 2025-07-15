@@ -23,9 +23,7 @@ function Navbar() {
           <Image src="/icons/LemonIcon2.png" alt="icon" width={125} height={125}  />
         </div>
       </Link>
-      <div>
-        <h1 className={`text-3xl text-[#ffffff] ${molle.className} `} >Stuffed UP</h1>
-      </div>
+      
       <div>
         <NavItems />
       </div>
